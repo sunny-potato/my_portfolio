@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: rgb(66 224 222);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(94 103 176);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding: 0 6rem;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 3rem;
+}
+
+.introContainer {
+  padding: 3rem;
+  min-width: 600px;
+  flex: 1;
+}
+.projectsContainer {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 3rem;
+  min-width: 600px;
+  flex: 1;
+}
+
+.introTitle > em {
+  position: relative;
+  font-size: 4rem;
+  line-height: 2;
+}
+.introTitle > em::before {
+  content: "";
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  right: -15%;
+  bottom: 0%;
+  z-index: -1;
+  background-color: rgb(242 168 203);
+}
+em {
+  position: relative;
+  font-weight: bolder;
+}
+em::before {
+  content: "";
+  position: absolute;
+
+  width: 102%;
+  height: 50%;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-2deg);
+  /* background-color: rgb(144, 238, 144); */
+  background-color: rgb(242 168 203);
+}
+
+.projectsTitle > em {
+  position: relative;
+  padding-top: 1rem;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.projectsTitle > em::before {
+  content: "";
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  /* top: 0; */
+  right: -10%;
+  bottom: -15%;
+  z-index: -1;
+  background-color: rgb(224 232 211);
+}
+
+ul {
+  /* display: flex;
+  flex-direction: column;
+  background-color: red;
+  justify-content: center; */
+}
+li {
+  display: flex;
+
+  list-style-type: none;
+  padding-left: 1rem;
+  line-height: 1.5;
+}
+li > span {
+  margin-right: auto;
+}
+li a {
+  position: relative;
+  margin: 0 0.4rem;
+
+  /* text-decoration: dashed; */
+}
+
+li a::before {
+  content: "";
+  position: absolute;
+  /* padding-left: 1rem; */
+  width: 100%;
+  height: 2px;
+  bottom: 0%;
+  background-color: rgb(224 232 211);
+  /* text-decoration: dashed; */
+}
+
+li a:hover {
+  /* width: 100%; */
+  height: 80%;
+  /* bottom: 0%; */
+  background-color: rgb(224 232 211);
+}
