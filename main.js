@@ -24,6 +24,8 @@ const githubUrl = [
   "https://github.com/sunny-potato/toDoList",
   "https://github.com/sunny-potato/ecommerce_react_native_app",
 ];
+
+console.log(siteUrl[1]);
 const listContainer = document.querySelector(".projectsList");
 for (let i = 0; i < projects.length; i++) {
   const list = document.createElement("li");
@@ -34,21 +36,21 @@ for (let i = 0; i < projects.length; i++) {
 
   const projectName = document.createElement("span");
   projectName.setAttribute("class", `projectName${i}`);
-  projectName.setAttribute("href", `#`);
-  projectName.setAttribute("target", `_blank`);
-  list.innerHTML = `${projects[i]}`;
+  // projectName.setAttribute("href", `#`);
+  // projectName.setAttribute("target", `_blank`);
+  // list.innerHTML = `${projects[i]}`;
   projectName.innerHTML = `${projects[i]}`;
   list.append(projectName);
 
   const siteLink = document.createElement("a");
   siteLink.setAttribute("class", `siteLink${i}`);
-  siteLink.setAttribute("href", `siteUrl${i}`);
+  siteLink.setAttribute("href", siteUrl[i]);
   siteLink.setAttribute("target", `_blank`);
   siteLink.innerHTML = "View site";
 
   const githubLink = document.createElement("a");
   githubLink.setAttribute("class", `githubLink${i}`);
-  githubLink.setAttribute("href", `githubUrl${i}`);
+  githubLink.setAttribute("href", githubUrl[i]);
   githubLink.setAttribute("target", `_blank`);
   githubLink.innerHTML = "Github";
 

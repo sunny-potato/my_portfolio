@@ -111,8 +111,6 @@ li > span {
 li a {
   position: relative;
   margin: 0 0.4rem;
-
-  /* text-decoration: dashed; */
 }
 
 li a::before {
@@ -128,7 +126,7 @@ li a::before {
 
 li a:hover {
   /* width: 100%; */
-  height: 80%;
-  /* bottom: 0%; */
+  height: 70%;
+  bottom: 0%;
   background-color: rgb(224 232 211);
 }
