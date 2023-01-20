@@ -9,7 +9,7 @@ const projects = [
   "E-commerce app",
 ];
 const siteUrl = [
-  "#",
+  "images/tasty.gif",
   "https://musicgame-sunhee.netlify.app/index.html",
   "https://searchimage-sunhee.netlify.app/",
   "https://typinggame-sunhee.netlify.app/",
@@ -25,13 +25,10 @@ const githubUrl = [
   "https://github.com/sunny-potato/ecommerce_react_native_app",
 ];
 
-console.log(siteUrl[1]);
 const listContainer = document.querySelector(".projectsList");
 for (let i = 0; i < projects.length; i++) {
   const list = document.createElement("li");
-  // console.log(projects[i]);
   list.setAttribute("class", `project${i}`);
-  // list.innerHTML = `${projects[i]}`;
   listContainer.append(list);
 
   const projectName = document.createElement("span");
@@ -42,11 +39,20 @@ for (let i = 0; i < projects.length; i++) {
   projectName.innerHTML = `${projects[i]}`;
   list.append(projectName);
 
-  const siteLink = document.createElement("a");
-  siteLink.setAttribute("class", `siteLink${i}`);
-  siteLink.setAttribute("href", siteUrl[i]);
-  siteLink.setAttribute("target", `_blank`);
-  siteLink.innerHTML = "View site";
+  if (i == 0 || i == 5) {
+    // const siteImage = document.createElement("img");
+    // siteImage.setAttribute("class", `siteImage${i}`);
+    // siteImage.setAttribute("src", siteUrl[i]);
+    // siteImage.setAttribute("target", `_blank`);
+    // list.append(siteImage);
+  } else {
+    const siteLink = document.createElement("a");
+    siteLink.setAttribute("class", `siteLink${i}`);
+    siteLink.setAttribute("href", siteUrl[i]);
+    siteLink.setAttribute("target", `_blank`);
+    siteLink.innerHTML = "View site";
+    list.append(siteLink);
+  }
 
   const githubLink = document.createElement("a");
   githubLink.setAttribute("class", `githubLink${i}`);
@@ -54,6 +60,5 @@ for (let i = 0; i < projects.length; i++) {
   githubLink.setAttribute("target", `_blank`);
   githubLink.innerHTML = "Github";
 
-  list.append(siteLink);
   list.append(githubLink);
 }
