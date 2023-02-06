@@ -2,11 +2,12 @@ import "./style.css";
 
 const projects = [
   "Tasty",
-  "Beat it",
+  "Rhythm game",
   "Search images",
   "Typing game",
   "To-do list",
   "E-commerce app",
+  "Top 10 popular keywords",
 ];
 const siteUrl = [
   "images/tasty.gif",
@@ -15,6 +16,7 @@ const siteUrl = [
   "https://typinggame-sunhee.netlify.app/",
   "https://todolist-sunhee.netlify.app/",
   "#",
+  "https://top10keywords-sunhee.netlify.app/",
 ];
 const githubUrl = [
   "https://github.com/sunny-potato/team_project_tasty",
@@ -23,6 +25,7 @@ const githubUrl = [
   "https://github.com/sunny-potato/typingGame",
   "https://github.com/sunny-potato/toDoList",
   "https://github.com/sunny-potato/ecommerce_react_native_app",
+  "https://github.com/sunny-potato/google_trends_rss",
 ];
 
 const listContainer = document.querySelector(".projectsList");
