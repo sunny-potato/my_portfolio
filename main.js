@@ -8,15 +8,17 @@ const projects = [
   "To-do list",
   "E-commerce app",
   "Top 10 popular keywords",
+  "Weather API",
 ];
 const siteUrl = [
-  "images/tasty.gif",
+  "#",
   "https://musicgame-sunhee.netlify.app/index.html",
   "https://searchimage-sunhee.netlify.app/",
   "https://typinggame-sunhee.netlify.app/",
   "https://todolist-sunhee.netlify.app/",
   "#",
   "https://top10keywords-sunhee.netlify.app/",
+  "https://weather-api-sunhee.netlify.app/",
 ];
 const githubUrl = [
   "https://github.com/sunny-potato/team_project_tasty",
@@ -26,6 +28,7 @@ const githubUrl = [
   "https://github.com/sunny-potato/toDoList",
   "https://github.com/sunny-potato/ecommerce_react_native_app",
   "https://github.com/sunny-potato/google_trends_rss",
+  "https://github.com/sunny-potato/weather_api",
 ];
 
 const listContainer = document.querySelector(".projectsList");
