@@ -5,7 +5,7 @@ import "./src/css/projects.css";
 import "./src/css/about.css";
 import "./src/css/contact.css";
 
-import projects from "./src/data/projects-list.json";
+import projects from "./src/data/projects-list.js";
 
 for (let i in projects.list) {
   const title = projects.list[i].title;
