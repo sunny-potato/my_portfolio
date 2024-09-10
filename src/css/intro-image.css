@@ -10,7 +10,8 @@
   bottom: 0.7em;
   background-color: var(--black);
   color: var(--green);
-  animation: typing 4s ease 3s infinite;
+  animation: typing 4s ease 0.2s;
+  animation-fill-mode: forwards;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
 }
 
