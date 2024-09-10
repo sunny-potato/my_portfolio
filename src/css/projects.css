@@ -1,0 +1,91 @@
+#projects {
+}
+
+.projects-wrapper {
+  width: 70%;
+  margin: auto;
+  padding: 4rem 0;
+}
+
+.projects-title {
+  font-size: var(--extra-large-font);
+  font-weight: bold;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.project {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255, 0.2);
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-video > video {
+  max-width: 800px;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+.project-text {
+  margin-top: 2rem;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-title {
+  font-size: var(--large-font);
+  font-weight: bolder;
+}
+.project-technology {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  background-color: var(--sky-gray);
+  padding: 0 0.3rem;
+  margin: 1rem 0;
+}
+.project-technology > span {
+  font-style: italic;
+  padding: 0.2rem 0.3rem;
+  font-size: var(--small-font);
+}
+.project-description {
+  padding-bottom: 0.5rem;
+  font-size: var(--medium-font);
+}
+.project-buttons {
+  padding: 1rem 0;
+  align-self: end;
+}
+.project-buttons > a {
+  transition: all 0.3s ease;
+  border: 0.1rem solid var(--dark-gray);
+  padding: 0.5rem 0.8rem;
+  margin: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: var(--medium-font);
+}
+
+.project-buttons > a:hover {
+  background-color: var(--green);
+  transform: scale(0.7);
+}
+.project-buttons > a:active {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

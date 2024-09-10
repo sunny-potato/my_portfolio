@@ -1,0 +1,100 @@
+{
+  "list": {
+    "NEST": {
+      "title": "NEST",
+      "description": "NEST",
+      "technology": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "PostgreSQL",
+        "Prisma",
+        "Tailwind",
+        "Vercel"
+      ],
+      "site_url": "https://test.nepheim.no/no",
+      "github_url": "#",
+      "image": "./src/image-projects/nest-main.jpg"
+    },
+    "tasty": {
+      "title": "Tasty",
+      "description": "Tasty is a website that users can create/read/update/delete for their own recipes. Our team developed database design, front-end & back-end and testing and I was in charge of pages for new recipe and editing recipe.",
+      "technology": [
+        "TypeScript",
+        "React",
+        "CSS",
+        "Jest",
+        "Enzyme",
+        "Node.js",
+        "SQL"
+      ],
+      "site_url": "#",
+      "github_url": "https://github.com/sunny-potato/team_project_tasty",
+      "image": "./src/image-projects/tasty/tasty-main.jpg"
+    },
+    "rhythm_game": {
+      "title": "Rhythm game",
+      "description": "It is a music game that users follow rhythm by beating icons coming down from the top of screen in the right time. I made the game's style with CSS and some of functions for the game. To display different game levels slider was used, but ------",
+
+      "technology": ["JavaScript", "HTML", "CSS"],
+      "site_url": "https://musicgame-sunhee.netlify.app/index.html",
+      "github_url": "https://github.com/sunny-potato/team_project_music_game",
+      "image": "./src/image-projects/gif/rhythm_game.gif"
+    },
+
+    "search_images": {
+      "id": 2,
+      "title": "Search for images",
+      "description": "It is a website where users can search for images by keywords. Images from the website is provided by Pexels(www.pexels.com) API. Filtering....",
+      "technology": ["JavaScript", "HTML", "CSS"],
+      "site_url": "https://searchimage-sunhee.netlify.app/",
+      "github_url": "https://github.com/sunny-potato/keywordSearch_images",
+      "image": "./src/image-projects/search_images.jpg"
+    },
+    "typing_game": {
+      "id": 3,
+      "title": "Typing game",
+      "description": "It is a game that helps to improve typing speed by typing english words which randomly fall. Displaying random words, Change of gamespeed over time, ",
+      "technology": ["JavaScript", "HTML", "CSS"],
+      "site_url": "https://typinggame-sunhee.netlify.app/",
+      "github_url": "https://github.com/sunny-potato/typingGame",
+      "image": "./src/image-projects/typing_game.jpg"
+    },
+    "_to_do_list": {
+      "id": 4,
+      "title": "To-do list",
+      "description": "It provide users to create/read/update/delete tasks that need to be completed so that users can easily mangage the tasks",
+      "technology": ["JavaScript", "HTML", "CSS"],
+      "site_url": "https://todolist-sunhee.netlify.app/",
+      "github_url": "https://github.com/sunny-potato/toDoList",
+      "image": "./src/image-projects/to_do_list.jpg"
+    },
+    "e_commerce_app": {
+      "title": "E-commerce app",
+      "description": "get data from open api and the visualize data in user-friendly wayge data from open api and the visualize data in user-friendly wayget data from open api and thevisuafriendly way get data from open api and thevisualize data in user-friendly wayget data from open api and the visualize data in user-friendly",
+      "technology": ["JavaScript", "React-native", "Node.js", "Android-studio"],
+      "site_url": "#",
+      "github_url": "https://github.com/sunny-potato/ecommerce_react_native_app",
+      "image": "./src/image-projects/gif/e_commerce.gif"
+    },
+
+    "top_10_keywords": {
+      "id": 6,
+      "title": "Top 10 popular keywords",
+      "description": "Data about most searched keywords on google in Norway today from RSS feeds of Google trends.",
+      "technology": ["JavaScript", "HTML", "CSS"],
+      "site_url": "https://top10keywords-sunhee.netlify.app/",
+      "github_url": "https://github.com/sunny-potato/google_trends_rss",
+      "image": "./src/image-projects/top_10_keywords.jpg"
+    },
+    "weather_api": {
+      "id": 7,
+      "title": "Weather API",
+      "description": "Search for weather by location.",
+      "technology": ["JavaScript", "HTML", "CSS", "Vite"],
+      "site_url": "https://weather-api-sunhee.netlify.app/",
+      "github_url": "https://github.com/sunny-potato/weather_api",
+      "image": "./src/image-projects/weather_api.jpg"
+    }
+  }
+}

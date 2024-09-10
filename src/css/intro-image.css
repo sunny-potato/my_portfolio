@@ -1,0 +1,113 @@
+.monitor::before {
+  content: "";
+  padding: 1em;
+  position: absolute;
+  width: 13em;
+  height: 9em;
+  border: 0.25em solid;
+  border-radius: 1em;
+  right: 0.7em;
+  bottom: 0.7em;
+  background-color: var(--black);
+  color: var(--green);
+  animation: typing 4s ease 3s infinite;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+@keyframes typing {
+  0% {
+    content: "H";
+  }
+  10% {
+    content: "He";
+  }
+  20% {
+    content: "Hel";
+  }
+  30% {
+    content: "Hell";
+  }
+  40% {
+    content: "Hello";
+  }
+  50% {
+    content: "Hello";
+  }
+  55% {
+    content: "Hello, ";
+  }
+  60% {
+    content: "Hello, w";
+  }
+  70% {
+    content: "Hello, wo";
+  }
+  80% {
+    content: "Hello, wor";
+  }
+  90% {
+    content: "Hello, worl";
+  }
+  95% {
+    content: "Hello, world";
+  }
+  100% {
+    content: "Hello, world!";
+  }
+}
+.monitor {
+  position: relative;
+  width: 15em;
+  height: 11em;
+  border: 0.25em solid;
+  border-radius: 1em;
+  background-color: var(--light-gray);
+}
+
+.keyboard::before {
+  content: "";
+  position: absolute;
+  width: 13em;
+  height: 4em;
+  border: 0.25em solid;
+  border-radius: 1em;
+  right: 1em;
+  bottom: 1em;
+  background: linear-gradient(
+      45deg,
+      #122621 25%,
+      transparent 25%,
+      transparent 75%,
+      #122621 75%
+    ),
+    linear-gradient(
+      45deg,
+      #122621 25%,
+      transparent 25%,
+      transparent 75%,
+      #122621 75%
+    );
+  background-color: var(--light-gray);
+  background-size: 2em 2em;
+  background-position: 0 0, 1em 1em;
+}
+.keyboard {
+  position: relative;
+  width: 15em;
+  height: 6em;
+  border: 0.25em solid;
+  border-radius: 1em;
+  transform-origin: top right;
+  transform: skew(-40deg, 0deg);
+  background-color: var(--light-gray);
+}
+
+.keyboard::after {
+  position: absolute;
+  content: "";
+  width: 15.7em;
+  height: 6.7em;
+  border-right: 4px solid;
+  border-bottom: 4px solid;
+  border-radius: 1em;
+}

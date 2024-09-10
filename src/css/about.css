@@ -1,0 +1,44 @@
+#about {
+  height: 100vh;
+}
+.about-wrapper {
+  width: 70%;
+  margin: auto;
+  padding-top: 4rem;
+}
+.about-title {
+  font-size: var(--medium-font);
+  font-weight: bold;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+.about-content {
+  background: rgb(255, 255, 255, 0.2);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.about-picture > img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  /* filter: grayscale(100%); */
+}
+.about-description {
+  width: 100%;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+.about-description > strong {
+  font-size: var(--medium-font);
+}
+.about-skills {
+  margin: 1rem 0;
+}
+.about-skills > span {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.2rem 0.3rem;
+  margin: 0.2rem;
+  font-size: var(--extra-small-font);
+}

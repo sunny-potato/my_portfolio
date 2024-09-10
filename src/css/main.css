@@ -1,0 +1,107 @@
+:root {
+  /* --light-beige: #fcf8f0;
+  --beige: #eae2d9;
+  --black: #122621;
+  --brown: #8b5b2f;
+  --light-pink: #d6bcae;
+  --dark-green: #2f5056;
+  --light-green: #c2cbc6; */
+  --black: #122621;
+  --dark-gray: #565a5b;
+  --light-gray: #8e989a;
+  --sky-gray: #a7b0b7;
+  --green: #98aba7;
+  --light-green: #a7b8b2;
+  --background-color: #b4c3be;
+  --extra-large-font: 24px;
+  --large-font: 20px;
+  --medium-font: 17px;
+  --small-font: 15px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: var(--black);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif,
+    Arial, sans-serif;
+}
+body {
+  background-color: var(--background-color);
+  font-size: var(--medium-font);
+  line-height: 1.4;
+}
+
+.page-container {
+  min-height: 100vh;
+}
+.navigation {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--background-color);
+  border-bottom: var(--dark-gray) 1px solid;
+  z-index: 100;
+  font-size: var(--extra-large-font);
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation > a:hover {
+  color: var(--dark-gray);
+}
+
+.nav-home {
+  margin-right: auto;
+  margin-left: 2rem;
+}
+.nav-projects,
+.nav-ideas,
+.nav-about,
+.nav-contact {
+  margin: 0 2rem;
+  /* color: rgba(173, 252, 234, 1); */
+}
+.main-container {
+  height: 100vh;
+  width: 100%;
+}
+.intro-container {
+  height: 100%;
+}
+.intro-wrapper {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro-image {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+}
+.intro-text {
+  padding-left: 2rem;
+}
+.intro-title {
+  color: var(--black);
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.intro-subtitle {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: var(--black);
+}

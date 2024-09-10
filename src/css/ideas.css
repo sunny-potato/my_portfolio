@@ -1,0 +1,12 @@
+#ideas {
+}
+.ideas-wrapper {
+  width: 70%;
+  margin: auto;
+  padding-top: 4rem;
+}
+
+.ideas-title {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
