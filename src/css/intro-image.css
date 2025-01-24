@@ -10,7 +10,7 @@
   bottom: 0.7em;
   background-color: var(--black);
   color: var(--green);
-  animation: typing 4s ease 0.2s;
+  animation: typing 4s ease 0.2s infinite;
   animation-fill-mode: forwards;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
 }
@@ -25,32 +25,35 @@
   20% {
     content: "Hel";
   }
-  30% {
+  25% {
     content: "Hell";
+  }
+  30% {
+    content: "Hello";
   }
   40% {
     content: "Hello";
   }
-  50% {
-    content: "Hello";
-  }
-  55% {
+  45% {
     content: "Hello, ";
   }
-  60% {
+  50% {
     content: "Hello, w";
   }
-  70% {
+  60% {
     content: "Hello, wo";
   }
-  80% {
+  70% {
     content: "Hello, wor";
   }
-  90% {
+  75% {
     content: "Hello, worl";
   }
-  95% {
+  80% {
     content: "Hello, world";
+  }
+  90% {
+    content: "Hello, world!";
   }
   100% {
     content: "Hello, world!";
